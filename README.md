@@ -34,6 +34,9 @@
 | **Emulator / ChromeOS** | [**x86_64** · 29 MB](https://github.com/soco-live/socolive-releases/releases/latest/download/socolive-tv-x86_64.apk) |
 | **Not sure — works everywhere** | [**Universal** · 73 MB](https://github.com/soco-live/socolive-releases/releases/latest/download/socolive-tv.apk) |
 
+> [!IMPORTANT]
+> **Before you install:** Allow Unknown Sources. No login required.
+
 Also at: `https://soco-live.github.io#download`
 
 ---
@@ -79,9 +82,9 @@ Unknown Sources ON → Downloader → paste → Install.
 ### Sister Apps
 
 <p align="center">
-  <a href="https://github.com/soco-live/animepahe-releases"><img src="https://raw.githubusercontent.com/soco-live/animepahe-tv/master/src/assets/icon.png" width="80" alt="AnimePahe"><br><sub><strong>AnimePahe TV</strong></sub></a>
+  <a href="https://github.com/soco-live/animepahe-releases"><img src="assets/animepahe_logo.png" width="80" alt="AnimePahe"><br><sub><strong>AnimePahe TV</strong></sub></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/soco-live/nkiri-releases"><img src="https://raw.githubusercontent.com/soco-live/nkiri-tv/main/src/assets/icon.png" width="80" alt="Nkiri"><br><sub><strong>Nkiri TV</strong></sub></a>
+  <a href="https://github.com/soco-live/nkiri-releases"><img src="assets/nkiri_logo.png" width="80" alt="Nkiri"><br><sub><strong>Nkiri TV</strong></sub></a>
 </p>
 
 ---

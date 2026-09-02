@@ -79,9 +79,9 @@ Unknown Sources ON → Downloader → paste → Install.
 ### Sister Apps
 
 <p align="center">
-  <a href="https://github.com/soco-live/animepahe-releases/releases/latest"><img src="https://raw.githubusercontent.com/soco-live/animepahe-tv/master/src/assets/icon.png" width="80" alt="AnimePahe"><br><sub><strong>AnimePahe TV</strong></sub></a>
+  <a href="https://github.com/soco-live/animepahe-releases"><img src="https://raw.githubusercontent.com/soco-live/animepahe-tv/master/src/assets/icon.png" width="80" alt="AnimePahe"><br><sub><strong>AnimePahe TV</strong></sub></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/soco-live/nkiri-releases/releases/latest"><img src="https://raw.githubusercontent.com/soco-live/nkiri-tv/main/src/assets/icon.png" width="80" alt="Nkiri"><br><sub><strong>Nkiri TV</strong></sub></a>
+  <a href="https://github.com/soco-live/nkiri-releases"><img src="https://raw.githubusercontent.com/soco-live/nkiri-tv/main/src/assets/icon.png" width="80" alt="Nkiri"><br><sub><strong>Nkiri TV</strong></sub></a>
 </p>
 
 ---

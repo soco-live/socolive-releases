@@ -19,8 +19,8 @@
 
 <p align="center">
   <a href="#download">Download</a> •
-  <a href="#install">Install</a> •
-  <a href="#latest">Latest</a>
+  <a href="#latest">Latest</a> •
+  <a href="#install">Install</a>
 </p>
 
 ---
@@ -38,6 +38,22 @@
 > **Before you install:** Allow Unknown Sources. No login required.
 
 Also at: `https://soco-live.github.io#download`
+
+---
+
+### Live Now
+
+<!-- LATEST_START -->
+<table><tr>
+<td align="center"><a href="#download"><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpnApyUACawQ3EBD0hDhmCA06QiEAQpM+KLmDLwi80faa0wjsaIhA.webp" width="60" alt="Sassuolo"><br><sub><strong>Sassuolo vs Frosinone</strong></sub><br><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkh24g+YEDxCqS2kABMQMEIlV8jenDAIUmfFFzBl4ReaIdNaYJ2NEQgA.webp" width="60" alt="Frosinone"></a></td>
+<td align="center"><a href="#download"><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpgAmYPmDXxoObiAj6QRozBArjeiYRjAmfFFzBlt9eaIdNaYJ2NEQgA.webp" width="60" alt="Udinese"><br><sub><strong>Udinese vs Venezia</strong></sub><br><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpgAmDTksghuIPiH06YuECpAoTICAQpM+KLmDLwi80faa0wjsaIhA.webp" width="60" alt="Venezia"></a></td>
+<td align="center"><a href="#download"><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzuFgpsCwVgBDQhWYNMATkhQFZgrDh49g773hta1gATChUiNiwMOPQjcRLAnQgiIRNhAR65BgGNm4nvBFVuBLqzBhc+S0A.webp" width="60" alt="Doncaster"><br><sub><strong>Doncaster vs Liverpool U21</strong></sub><br><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzuFgpsCwVgBDQhWYNMATkhQFZgrDh49g773hta1gATChUiNiwMOPQjcRLAnQgAxiCIgUIfvXINFzcT3giq3Al1ZgwufFaA.webp" width="60" alt="Liverpool U21"></a></td>
+</tr><tr>
+<td align="center"><a href="#download"><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpgAmYcGTJRE3EBBB8QiEkZAn9IAwQpM+KLmDLwi80faa0wjsaIhA.webp" width="60" alt="AGF Aarhus"><br><sub><strong>AGF Aarhus vs FC Midtjylland</strong></sub><br><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpkSisFeNhDcQfECX27tuEwBNcBCkz4ouYMpvrzRtprTD2xoiEA.webp" width="60" alt="FC Midtjylland"></a></td>
+<td align="center"><a href="#download"><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpm5g+akCB6wQ3ECRCIIIACa4QMEMeMTCMYEz4ouYMvCLzRzprTCuxohBAA.webp" width="60" alt="Sint-Truiden"><br><sub><strong>Sint-Truiden vs Union Saint-Gilloise</strong></sub><br><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkhzDAk5dTBAQQ3EABMQJbQZBa9fE4wpM+KLmDLwi80faa0wjsaIhA.webp" width="60" alt="Union Saint-Gilloise"></a></td>
+<td align="center"><a href="#download"><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkhzQhwAEzYIQKENxB8DO3HpCIIIGGYIUmfFFzBl4ReaIdNaYJ2NEQgA.webp" width="60" alt="Grasshoppers"><br><sub><strong>Grasshoppers vs St. Gallen</strong></sub><br><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpLAowAE1UaEIbiAi5D6-SZK7cBCkz4ouYMvCLzRtprTD2xoiEA.webp" width="60" alt="St. Gallen"></a></td>
+</tr></table>
+<!-- LATEST_END -->
 
 ---
 
@@ -63,27 +79,11 @@ Unknown Sources ON → Downloader → paste → Install.
 
 ---
 
-### Live Now
-
-<!-- LATEST_START -->
-<table><tr>
-<td align="center"><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpnApyUACawQ3EBD0hDhmCA06QiEAQpM+KLmDLwi80faa0wjsaIhA.webp" width="60" alt="Sassuolo"><br><sub><strong>Sassuolo vs Frosinone</strong></sub><br><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkh24g+YEDxCqS2kABMQMEIlV8jenDAIUmfFFzBl4ReaIdNaYJ2NEQgA.webp" width="60" alt="Frosinone"></td>
-<td align="center"><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpgAmYPmDXxoObiAj6QRozBArjeiYRjAmfFFzBlt9eaIdNaYJ2NEQgA.webp" width="60" alt="Udinese"><br><sub><strong>Udinese vs Venezia</strong></sub><br><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpgAmDTksghuIPiH06YuECpAoTICAQpM+KLmDLwi80faa0wjsaIhA.webp" width="60" alt="Venezia"></td>
-<td align="center"><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzuFgpsCwVgBDQhWYNMATkhQFZgrDh49g773hta1gATChUiNiwMOPQjcRLAnQgiIRNhAR65BgGNm4nvBFVuBLqzBhc+S0A.webp" width="60" alt="Doncaster"><br><sub><strong>Doncaster vs Liverpool U21</strong></sub><br><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzuFgpsCwVgBDQhWYNMATkhQFZgrDh49g773hta1gATChUiNiwMOPQjcRLAnQgAxiCIgUIfvXINFzcT3giq3Al1ZgwufFaA.webp" width="60" alt="Liverpool U21"></td>
-</tr><tr>
-<td align="center"><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpgAmYcGTJRE3EBBB8QiEkZAn9IAwQpM+KLmDLwi80faa0wjsaIhA.webp" width="60" alt="AGF Aarhus"><br><sub><strong>AGF Aarhus vs FC Midtjylland</strong></sub><br><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpkSisFeNhDcQfECX27tuEwBNcBCkz4ouYMpvrzRtprTD2xoiEA.webp" width="60" alt="FC Midtjylland"></td>
-<td align="center"><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpm5g+akCB6wQ3ECRCIIIACa4QMEMeMTCMYEz4ouYMvCLzRzprTCuxohBAA.webp" width="60" alt="Sint-Truiden"><br><sub><strong>Sint-Truiden vs Union Saint-Gilloise</strong></sub><br><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkhzDAk5dTBAQQ3EABMQJbQZBa9fE4wpM+KLmDLwi80faa0wjsaIhA.webp" width="60" alt="Union Saint-Gilloise"></td>
-<td align="center"><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkhzQhwAEzYIQKENxB8DO3HpCIIIGGYIUmfFFzBl4ReaIdNaYJ2NEQgA.webp" width="60" alt="Grasshoppers"><br><sub><strong>Grasshoppers vs St. Gallen</strong></sub><br><img src="https://sportsrc.org/img/sport/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpLAowAE1UaEIbiAi5D6-SZK7cBCkz4ouYMvCLzRtprTD2xoiEA.webp" width="60" alt="St. Gallen"></td>
-</tr></table>
-<!-- LATEST_END -->
-
----
-
 ### Sister Apps
 
 | App | App |
 |---|---|
-| <a href="https://github.com/soco-live/animepahe-releases#readme"><img src="assets/animepahe_logo.png" width="80" alt="AnimePahe TV"><br><sub><strong>AnimePahe TV</strong></sub></a> | <a href="https://github.com/soco-live/nkiri-releases#readme"><img src="assets/nkiri_logo.png" width="80" alt="Nkiri TV"><br><sub><strong>Nkiri TV</strong></sub></a> |
+| <a href="https://github.com/soco-live/animepahe-releases#readme"><img src="assets/animepahe_logo.png" width="80" alt="AnimePahe"><br><sub><strong>AnimePahe TV</strong></sub></a> | <a href="https://github.com/soco-live/nkiri-releases#readme"><img src="assets/nkiri_logo.png" width="80" alt="Nkiri"><br><sub><strong>Nkiri TV</strong></sub></a> |
 
 ---
 

@@ -8,7 +8,7 @@ def get_latest():
 def fmt(items):
     rows=[]
     for it in items[:6]:
-        rows.append(f'<td align="center"><img src="{it["home_badge"]}" width="60" alt="{it["home"]}"><br><sub><strong>{it["home"]} vs {it["away"]}</strong></sub><br><img src="{it["away_badge"]}" width="60" alt="{it["away"]}"></td>')
+        rows.append(f'<td align="center"><a href="#download"><img src="{it["home_badge"]}" width="60" alt="{it["home"]}"><br><sub><strong>{it["home"]} vs {it["away"]}</strong></sub><br><img src="{it["away_badge"]}" width="60" alt="{it["away"]}"></a></td>')
     if not rows: return "<p>No matches today</p>"
     html=['<table><tr>']
     for i, cell in enumerate(rows):
@@ -22,7 +22,7 @@ def post_fb(latest):
     try:
         lines=["⚽ Latest Matches — Socolive TV"]
         for it in latest[:5]: lines.append(f"🔴 {it.get('home','')} vs {it.get('away','')}")
-        lines.append("\n📲 https://soco-live.github.io")
+        lines.append("\n📲 https://soco-live.github.io#download")
         message="\n".join(lines)
         last_file=os.path.join(REPO,".fb_last_post_id")
         if os.path.exists(last_file):

@@ -99,17 +99,7 @@ def post_fb(latest):
 def update():
     latest = get_latest()
 
-    # 1. Update README.md
-    readme_block = fmt_readme(latest)
-    if os.path.exists(README):
-        with open(README, "r", encoding="utf-8") as f:
-            txt = f.read()
-        new_txt = re.sub(r'<!-- LATEST_START -->.*?<!-- LATEST_END -->', f'<!-- LATEST_START -->\n{readme_block}\n<!-- LATEST_END -->', txt, flags=re.DOTALL)
-        if new_txt != txt:
-            with open(README, "w", encoding="utf-8") as f:
-                f.write(new_txt)
-
-    # 2. Update index.html (Static SEO pre-rendering for Googlebot)
+    # 1. Update index.html (Static SEO pre-rendering for Googlebot)
     if os.path.exists(INDEX):
         html_block = fmt_html_matches(latest)
         with open(INDEX, "r", encoding="utf-8") as f:

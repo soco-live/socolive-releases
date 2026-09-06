@@ -53,6 +53,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: ['class', '[data-theme="dark"]'],
+      theme: {
+        extend: {
+          colors: {
+            primary: 'var(--c-primary)',
+            'primary-dark': 'var(--c-primary-dark)',
+            'primary-light': 'var(--c-primary-light)',
+            accent: 'var(--c-accent)'
+          }
+        }
+      }
+    };
+  </script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="min-h-screen flex flex-col antialiased transition-colors duration-200" style="background:radial-gradient(circle at 80% 20%, rgba(245,158,11,0.08) 0%, transparent 50%),radial-gradient(circle at 20% 80%, rgba(245,158,11,0.08) 0%, transparent 50%),var(--c-bg);color:var(--c-text);font-family:var(--c-font);line-height:1.6">

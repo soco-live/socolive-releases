@@ -70,7 +70,7 @@ def post_fb(latest):
         lines = ["⚽ Latest Matches — Socolive TV"]
         for it in latest[:5]:
             lines.append(f"🔴 {it.get('home', '')} vs {it.get('away', '')}")
-        lines.append("\n📲 https://sports.tvphone.com#download")
+        lines.append("\n📲 https://football.tvphone.com#download")
         message = "\n".join(lines)
         last_file = os.path.join(REPO, ".fb_last_post_id")
         if os.path.exists(last_file):

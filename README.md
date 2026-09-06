@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <em>Official website: <a href="https://sports.tvphone.com">sports.tvphone.com</a></em>
+  <em>Official website: <a href="https://football.tvphone.com">football.tvphone.com</a></em>
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@
 > [!IMPORTANT]
 > **Before you install:** Allow Unknown Sources. No login required.
 
-Also at: `https://sports.tvphone.com#download`
+Also at: `https://football.tvphone.com#download`
 
 ---
 

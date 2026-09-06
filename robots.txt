@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sports.tvphone.com/sitemap.xml
+Sitemap: https://football.tvphone.com/sitemap.xml

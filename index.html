@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Socolive TV | Live Football Scores & Match Tracker for Android TV & Phone</title>
+  <meta name="description" content="Track live football fixtures, real-time scores, and match schedules on Android TV, Firestick, and Android mobile. D-pad remote optimized, lightweight, and 100% free.">
+  <meta name="keywords" content="live football android tv, premier league live stream, champions league firestick, football scores smart tv, socolive tv, tv phone sports app">
+  <meta name="theme-color" content="#f59e0b">
+  <link rel="canonical" href="https://sports.tvphone.com/">
+  <link rel="icon" href="assets/icon.png" type="image/png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Socolive TV | Live Football Scores & Match Tracker for Android TV & Phone">
+  <meta property="og:description" content="Lightweight football client engineered for Android TV and Phone. Live scores, premier league match tracking, D-pad controls, zero buffering.">
+  <meta property="og:image" content="https://sports.tvphone.com/assets/icon.png">
+  <meta property="og:url" content="https://sports.tvphone.com/">
+  <meta property="og:site_name" content="TV/Phone - Socolive TV">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Socolive TV | Live Football for Android TV & Phone">
+  <meta name="twitter:description" content="Lightweight football client for Android TV & Mobile. Live scores, match schedules, D-pad controls.">
+  <meta name="twitter:image" content="https://sports.tvphone.com/assets/icon.png">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Socolive TV",
+    "operatingSystem": "Android, Android TV, Fire OS",
+    "applicationCategory": "SportsApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "1280"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "TV/Phone",
+      "url": "https://tvphone.com"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="min-h-screen flex flex-col antialiased transition-colors duration-200" style="background:radial-gradient(circle at 80% 20%, rgba(245,158,11,0.08) 0%, transparent 50%),radial-gradient(circle at 20% 80%, rgba(245,158,11,0.08) 0%, transparent 50%),var(--c-bg);color:var(--c-text);font-family:var(--c-font);line-height:1.6">
+
+  <!-- Top Ecosystem Bar -->
+  <header class="fixed top-0 left-0 right-0 z-50 px-4 py-3 bg-[var(--c-surface)]/80 backdrop-blur-md border-b border-[var(--c-border)] flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <a href="https://sports.tvphone.com" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-[var(--c-border)] bg-[var(--c-surface)] text-xs font-black tracking-wide text-[var(--c-text)] no-underline hover:border-[var(--c-primary)] transition-all">
+        <i class="fa-solid fa-tv text-[var(--c-primary)]"></i>
+        <span class="text-[var(--c-text-muted)] font-normal">/</span>
+        <i class="fa-solid fa-mobile-screen text-[var(--c-primary)]"></i>
+        <span class="ml-1 tracking-wider uppercase">TV/Phone</span>
+      </a>
+      <nav class="hidden sm:flex items-center gap-1 text-xs font-bold">
+        <a href="https://sports.tvphone.com" class="px-2.5 py-1 rounded-lg bg-[rgba(245,158,11,0.12)] text-[var(--c-primary)] no-underline">Sports</a>
+        <a href="https://anime.tvphone.com" class="px-2.5 py-1 rounded-lg text-[var(--c-text-secondary)] hover:text-[#e11d48] no-underline transition-colors">Anime</a>
+        <a href="https://movies.tvphone.com" class="px-2.5 py-1 rounded-lg text-[var(--c-text-secondary)] hover:text-[#0284c7] no-underline transition-colors">Movies</a>
+      </nav>
+    </div>
+
+    <div class="flex items-center gap-2">
+      <button class="theme-fab w-9 h-9 rounded-xl border border-[var(--c-border)] bg-[var(--c-surface)] text-[var(--c-text-secondary)] cursor-pointer flex items-center justify-center shadow-sm hover:border-[var(--c-primary)] hover:text-[var(--c-primary)] transition-all" onclick="toggleTheme()" aria-label="Toggle theme">
+        <svg class="icon-sun absolute w-4 h-4 transition-all" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/>
+        </svg>
+        <svg class="icon-moon absolute w-4 h-4 transition-all" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+      <a href="#download" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold bg-[var(--c-primary)] text-white no-underline hover:opacity-90 shadow-sm transition-all">
+        <i class="fa-solid fa-download"></i> Get App
+      </a>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Sub-bar -->
+  <div class="sm:hidden pt-16 px-4 flex items-center justify-center gap-2 text-xs font-bold">
+    <a href="https://sports.tvphone.com" class="px-3 py-1 rounded-lg bg-[rgba(245,158,11,0.12)] text-[var(--c-primary)] no-underline">⚽ Sports</a>
+    <a href="https://anime.tvphone.com" class="px-3 py-1 rounded-lg text-[var(--c-text-secondary)] hover:text-[#e11d48] no-underline">⛩️ Anime</a>
+    <a href="https://movies.tvphone.com" class="px-3 py-1 rounded-lg text-[var(--c-text-secondary)] hover:text-[#0284c7] no-underline">🎬 Movies</a>
+  </div>
+
+  <main class="w-full max-w-[540px] mx-auto pt-20 sm:pt-24 pb-16 px-4 flex flex-col gap-6">
+
+    <!-- Hero Card -->
+    <section class="bg-[var(--c-surface)] border border-[var(--c-border)] rounded-3xl p-6 shadow-sm flex flex-col items-center text-center relative overflow-hidden backdrop-blur-lg">
+      <div class="w-20 h-20 rounded-2xl bg-[rgba(245,158,11,0.1)] border border-[rgba(245,158,11,0.2)] p-2 flex items-center justify-center mb-4 shadow-sm">
+        <img src="assets/icon.png" alt="Socolive TV Logo" class="w-full h-full object-contain">
+      </div>
+      <span class="text-[0.7rem] font-extrabold tracking-widest uppercase px-3 py-1 rounded-full bg-[rgba(245,158,11,0.1)] text-[var(--c-primary)] mb-2">TV/Phone Dual Experience</span>
+      <h1 class="text-2xl sm:text-3xl font-black tracking-tight text-[var(--c-text)] mb-2">Socolive TV</h1>
+      <p class="text-xs sm:text-sm text-[var(--c-text-secondary)] max-w-[420px] leading-relaxed mb-4">
+        Real-time match scores, live fixture schedules, and seamless sports coverage optimized for Android TV, Firestick, and Android mobile phones.
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center gap-1.5 text-[0.7rem] font-bold">
+        <span class="px-2.5 py-1 rounded-lg bg-[var(--c-bg-alt)] border border-[var(--c-border)] text-[var(--c-text-secondary)] flex items-center gap-1.5"><i class="fa-solid fa-tv text-[var(--c-primary)]"></i> Android TV</span>
+        <span class="px-2.5 py-1 rounded-lg bg-[var(--c-bg-alt)] border border-[var(--c-border)] text-[var(--c-text-secondary)] flex items-center gap-1.5"><i class="fa-solid fa-fire text-[var(--c-primary)]"></i> Firestick</span>
+        <span class="px-2.5 py-1 rounded-lg bg-[var(--c-bg-alt)] border border-[var(--c-border)] text-[var(--c-text-secondary)] flex items-center gap-1.5"><i class="fa-solid fa-mobile-screen text-[var(--c-primary)]"></i> Phone Mode</span>
+        <span class="px-2.5 py-1 rounded-lg bg-[var(--c-bg-alt)] border border-[var(--c-border)] text-[var(--c-text-secondary)] flex items-center gap-1.5"><i class="fa-solid fa-shield-check text-[#10b981]"></i> 100% Ad-Free</span>
+      </div>
+    </section>
+
+    <!-- Dynamic Promo / Live Matches Widget -->
+    <section id="dynamic-promo" aria-live="polite">
+      <!-- MATCHES_START -->
+      <div class="promo-card">
+        <div class="promo-badge">LOADING LIVE FIXTURES...</div>
+        <div class="py-6 text-center text-xs text-[var(--c-text-muted)] flex flex-col items-center gap-2">
+          <i class="fa-solid fa-circle-notch fa-spin text-lg text-[var(--c-primary)]"></i>
+          <span>Connecting to live match feed...</span>
+        </div>
+      </div>
+      <!-- MATCHES_END -->
+    </section>
+
+    <!-- Secure Downloads Section -->
+    <section id="download" class="flex flex-col gap-3">
+      <div class="flex items-center justify-between px-1">
+        <h2 class="text-sm font-extrabold tracking-wider uppercase text-[var(--c-primary)] flex items-center gap-2">
+          <i class="fa-solid fa-cloud-arrow-down"></i> Secure Downloads
+        </h2>
+        <span class="text-[0.7rem] font-bold text-[var(--c-text-muted)]">Verified Builds</span>
+      </div>
+
+      <!-- Universal APK (Primary Recommended) -->
+      <div class="bg-[var(--c-surface)] border-2 border-[var(--c-primary)] rounded-2xl p-5 shadow-sm hover:-translate-y-0.5 transition-all flex flex-col gap-3 relative overflow-hidden">
+        <div class="absolute top-0 right-0 bg-[var(--c-primary)] text-white text-[0.65rem] font-extrabold px-3 py-0.5 rounded-bl-xl tracking-wider uppercase">
+          Recommended
+        </div>
+        <div>
+          <h3 class="text-base font-extrabold text-[var(--c-text)] flex items-center gap-2">
+            <i class="fa-solid fa-box text-[var(--c-primary)]"></i> Universal APK
+          </h3>
+          <p class="text-xs text-[var(--c-text-secondary)] mt-0.5 leading-relaxed">
+            Works out of the box on all Smart TVs, Firestick models, Android boxes, and Android phones.
+          </p>
+        </div>
+        <a href="https://github.com/soco-live/sport-client/releases/latest/download/socolive-tv.apk" class="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl text-xs font-bold bg-[var(--c-primary)] text-white no-underline hover:opacity-90 shadow-sm transition-all w-full">
+          <i class="fa-solid fa-download"></i> Download Universal APK (~76 MB)
+        </a>
+      </div>
+
+      <!-- Split ABIs Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+        <!-- ARM64 -->
+        <div class="bg-[var(--c-surface)] border border-[var(--c-border)] rounded-xl p-3.5 flex flex-col justify-between text-center gap-2 hover:border-[var(--c-primary)] transition-all">
+          <div>
+            <div class="text-xs font-extrabold text-[var(--c-text)]">ARM64-v8a</div>
+            <div class="text-[0.68rem] text-[var(--c-text-muted)] mt-0.5">Fire TV 4K & Modern TVs</div>
+          </div>
+          <a href="https://github.com/soco-live/sport-client/releases/latest/download/socolive-tv-arm64-v8a.apk" class="inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-[0.72rem] font-bold bg-[rgba(245,158,11,0.08)] text-[var(--c-primary)] hover:bg-[var(--c-primary)] hover:text-white no-underline transition-all">
+            <i class="fa-solid fa-download"></i> ~31 MB
+          </a>
+        </div>
+
+        <!-- ARMv7 -->
+        <div class="bg-[var(--c-surface)] border border-[var(--c-border)] rounded-xl p-3.5 flex flex-col justify-between text-center gap-2 hover:border-[var(--c-primary)] transition-all">
+          <div>
+            <div class="text-xs font-extrabold text-[var(--c-text)]">ARMv7a</div>
+            <div class="text-[0.68rem] text-[var(--c-text-muted)] mt-0.5">Fire TV Stick Lite & 1080p</div>
+          </div>
+          <a href="https://github.com/soco-live/sport-client/releases/latest/download/socolive-tv-armeabi-v7a.apk" class="inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-[0.72rem] font-bold bg-[rgba(245,158,11,0.08)] text-[var(--c-primary)] hover:bg-[var(--c-primary)] hover:text-white no-underline transition-all">
+            <i class="fa-solid fa-download"></i> ~30 MB
+          </a>
+        </div>
+
+        <!-- x86_64 -->
+        <div class="bg-[var(--c-surface)] border border-[var(--c-border)] rounded-xl p-3.5 flex flex-col justify-between text-center gap-2 hover:border-[var(--c-primary)] transition-all">
+          <div>
+            <div class="text-xs font-extrabold text-[var(--c-text)]">x86_64</div>
+            <div class="text-[0.68rem] text-[var(--c-text-muted)] mt-0.5">Emulators & Mini PCs</div>
+          </div>
+          <a href="https://github.com/soco-live/sport-client/releases/latest/download/socolive-tv-x86_64.apk" class="inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-[0.72rem] font-bold bg-[rgba(245,158,11,0.08)] text-[var(--c-primary)] hover:bg-[var(--c-primary)] hover:text-white no-underline transition-all">
+            <i class="fa-solid fa-download"></i> ~31 MB
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TV & Phone Installation Guide -->
+    <section class="bg-[var(--c-surface)] border border-[var(--c-border)] rounded-2xl p-5 shadow-sm">
+      <h2 class="text-sm font-extrabold uppercase text-[var(--c-primary)] mb-3 flex items-center gap-2">
+        <i class="fa-solid fa-circle-question"></i> How to Install on TV & Firestick
+      </h2>
+      <ol class="flex flex-col gap-2 text-xs text-[var(--c-text-secondary)] leading-relaxed list-decimal list-inside">
+        <li>On your TV or Firestick, install the free <strong class="text-[var(--c-text)]">Downloader</strong> app from the Amazon Appstore or Google Play Store.</li>
+        <li>In your TV Settings &gt; Developer Options, enable <strong class="text-[var(--c-text)]">Install Unknown Apps</strong> for Downloader.</li>
+        <li>Open Downloader, enter the direct download link: <code class="px-1.5 py-0.5 rounded bg-[var(--c-bg-alt)] border border-[var(--c-border)] text-[var(--c-primary)] font-mono">https://sports.tvphone.com</code></li>
+        <li>Click Download and select Install when prompted. Enjoy live matches immediately!</li>
+      </ol>
+    </section>
+
+    <!-- App Features Grid -->
+    <section class="flex flex-col gap-2.5">
+      <h2 class="text-sm font-extrabold uppercase text-[var(--c-primary)] px-1 flex items-center gap-2">
+        <i class="fa-solid fa-bolt"></i> App Highlights
+      </h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+        <div class="bg-[var(--c-surface)] border border-[var(--c-border)] rounded-xl p-4 flex gap-3">
+          <i class="fa-solid fa-gamepad text-lg text-[var(--c-primary)] shrink-0 mt-0.5"></i>
+          <div>
+            <h4 class="text-xs font-bold text-[var(--c-text)] mb-0.5">10-Foot Remote D-Pad</h4>
+            <p class="text-[0.74rem] text-[var(--c-text-secondary)] leading-relaxed">Engineered specifically for television remotes with clear focus borders and smooth linear navigation.</p>
+          </div>
+        </div>
+
+        <div class="bg-[var(--c-surface)] border border-[var(--c-border)] rounded-xl p-4 flex gap-3">
+          <i class="fa-solid fa-futbol text-lg text-[var(--c-primary)] shrink-0 mt-0.5"></i>
+          <div>
+            <h4 class="text-xs font-bold text-[var(--c-text)] mb-0.5">Major League Coverage</h4>
+            <p class="text-[0.74rem] text-[var(--c-text-secondary)] leading-relaxed">Live match tracking and fixtures across Premier League, Champions League, La Liga, Serie A, and international cups.</p>
+          </div>
+        </div>
+
+        <div class="bg-[var(--c-surface)] border border-[var(--c-border)] rounded-xl p-4 flex gap-3">
+          <i class="fa-solid fa-gauge-high text-lg text-[var(--c-primary)] shrink-0 mt-0.5"></i>
+          <div>
+            <h4 class="text-xs font-bold text-[var(--c-text)] mb-0.5">Zero Buffering ExoPlayer</h4>
+            <p class="text-[0.74rem] text-[var(--c-text-secondary)] leading-relaxed">Native video engine optimized for low memory footprint and rapid seek response on low-RAM TV hardware.</p>
+          </div>
+        </div>
+
+        <div class="bg-[var(--c-surface)] border border-[var(--c-border)] rounded-xl p-4 flex gap-3">
+          <i class="fa-solid fa-ban text-lg text-[var(--c-primary)] shrink-0 mt-0.5"></i>
+          <div>
+            <h4 class="text-xs font-bold text-[var(--c-text)] mb-0.5">Zero Intrusive Ads</h4>
+            <p class="text-[0.74rem] text-[var(--c-text-secondary)] leading-relaxed">No forced redirects, popups, or injected overlays. Pure sports viewing exactly as it should be.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TV/Phone Sister Ecosystem -->
+    <section class="flex flex-col gap-2.5">
+      <h2 class="text-sm font-extrabold uppercase text-[var(--c-primary)] px-1 flex items-center gap-2">
+        <i class="fa-solid fa-layer-group"></i> TV/Phone Ecosystem
+      </h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+        <a href="https://anime.tvphone.com" class="bg-[var(--c-surface)] border border-[var(--c-border)] rounded-2xl p-4 flex items-center gap-3.5 no-underline hover:border-[#e11d48] hover:-translate-y-0.5 transition-all">
+          <img src="assets/animepahe_logo.png" alt="AnimePahe TV Logo" class="w-12 h-12 rounded-xl object-contain shrink-0 bg-[#e11d48]/10 p-1">
+          <div>
+            <span class="text-[0.65rem] font-bold text-[#e11d48] uppercase tracking-wide block">Anime Streaming</span>
+            <div class="text-xs font-bold text-[var(--c-text)]">AnimePahe TV</div>
+            <p class="text-[0.7rem] text-[var(--c-text-secondary)] leading-tight mt-0.5">Airing anime catalog and HD media player for Android TV & Phone.</p>
+          </div>
+        </a>
+
+        <a href="https://movies.tvphone.com" class="bg-[var(--c-surface)] border border-[var(--c-border)] rounded-2xl p-4 flex items-center gap-3.5 no-underline hover:border-[#0284c7] hover:-translate-y-0.5 transition-all">
+          <img src="assets/nkiri_logo.png" alt="Nkiri TV Logo" class="w-12 h-12 rounded-xl object-contain shrink-0 bg-[#0284c7]/10 p-1">
+          <div>
+            <span class="text-[0.65rem] font-bold text-[#0284c7] uppercase tracking-wide block">Cinema & Series</span>
+            <div class="text-xs font-bold text-[var(--c-text)]">Nkiri TV</div>
+            <p class="text-[0.7rem] text-[var(--c-text-secondary)] leading-tight mt-0.5">Trending movies, K-Dramas, and cinema player for Android TV & Phone.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="mt-auto py-8 px-4 border-t border-[var(--c-border)] bg-[var(--c-surface)] text-center text-xs text-[var(--c-text-muted)] flex flex-col items-center gap-3">
+    <div class="flex items-center gap-2 font-bold text-[var(--c-text)]">
+      <i class="fa-solid fa-tv text-[var(--c-primary)]"></i> / <i class="fa-solid fa-mobile-screen text-[var(--c-primary)]"></i> TV/Phone Ecosystem
+    </div>
+    <p class="max-w-[480px] leading-relaxed text-[0.72rem]">
+      &copy; 2026 TV/Phone. Universal entertainment applications engineered for Android TV and Android Mobile. All media rights belong to their respective creators. 100% Secure & verified APK downloads.
+    </p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

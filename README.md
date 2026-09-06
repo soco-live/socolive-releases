@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/soco-live/socolive-releases/releases/latest"><img src="https://img.shields.io/github/v/release/soco-live/socolive-releases?label=version&style=flat-square&color=f59e0b" alt="release"></a>
+  <a href="https://github.com/soco-live/sport-client/releases/latest"><img src="https://img.shields.io/github/v/release/soco-live/sport-client?label=version&style=flat-square&color=f59e0b" alt="release"></a>
   <img src="https://img.shields.io/badge/platform-Android%20%7C%20Android%20TV%20%7C%20Firestick-3DDC84?style=flat-square&logo=android" alt="platform">
 </p>
 
@@ -29,10 +29,10 @@
 
 | For your device | Tap to download |
 |---|---|
-| **Most phones & TVs** (64-bit) | [**arm64-v8a** · 28 MB](https://github.com/soco-live/socolive-releases/releases/latest/download/socolive-tv-arm64-v8a.apk) |
-| **Older phones & sticks** (32-bit) | [**armeabi-v7a** · 28 MB](https://github.com/soco-live/socolive-releases/releases/latest/download/socolive-tv-armeabi-v7a.apk) |
-| **Emulator / ChromeOS** | [**x86_64** · 29 MB](https://github.com/soco-live/socolive-releases/releases/latest/download/socolive-tv-x86_64.apk) |
-| **Not sure — works everywhere** | [**Universal** · 73 MB](https://github.com/soco-live/socolive-releases/releases/latest/download/socolive-tv.apk) |
+| **Most phones & TVs** (64-bit) | [**arm64-v8a** · 28 MB](https://github.com/soco-live/sport-client/releases/latest/download/socolive-tv-arm64-v8a.apk) |
+| **Older phones & sticks** (32-bit) | [**armeabi-v7a** · 28 MB](https://github.com/soco-live/sport-client/releases/latest/download/socolive-tv-armeabi-v7a.apk) |
+| **Emulator / ChromeOS** | [**x86_64** · 29 MB](https://github.com/soco-live/sport-client/releases/latest/download/socolive-tv-x86_64.apk) |
+| **Not sure — works everywhere** | [**Universal** · 73 MB](https://github.com/soco-live/sport-client/releases/latest/download/socolive-tv.apk) |
 
 > [!IMPORTANT]
 > **Before you install:** Allow Unknown Sources. No login required.
@@ -83,7 +83,7 @@ Unknown Sources ON → Downloader → paste → Install.
 
 | App | App |
 |---|---|
-| <a href="https://github.com/soco-live/animepahe-releases#readme"><img src="assets/animepahe_logo.png" width="80" alt="AnimePahe"><br><sub><strong>AnimePahe TV</strong></sub></a> | <a href="https://github.com/soco-live/nkiri-releases#readme"><img src="assets/nkiri_logo.png" width="80" alt="Nkiri"><br><sub><strong>Nkiri TV</strong></sub></a> |
+| <a href="https://github.com/soco-live/ani-player#readme"><img src="assets/animepahe_logo.png" width="80" alt="AnimePahe"><br><sub><strong>AnimePahe TV</strong></sub></a> | <a href="https://github.com/soco-live/cine-client#readme"><img src="assets/nkiri_logo.png" width="80" alt="Nkiri"><br><sub><strong>Nkiri TV</strong></sub></a> |
 
 ---
 

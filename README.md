@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <em>Primary site: <a href="https://soco-live.github.io">soco-live.github.io</a> — this is a mirror.</em>
+  <em>Official website: <a href="https://sports.tvphone.com">sports.tvphone.com</a></em>
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@
 > [!IMPORTANT]
 > **Before you install:** Allow Unknown Sources. No login required.
 
-Also at: `https://soco-live.github.io#download`
+Also at: `https://sports.tvphone.com#download`
 
 ---
 
